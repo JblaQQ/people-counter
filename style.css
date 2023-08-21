@@ -1,0 +1,19 @@
+body{ background-image: url(Hamburg.jpeg);
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#count-el{
+    color: blue;
+    font-size: 500%;
+
+}
+#increment-btn{
+    background-color: red;
+        width: 10%;
+        height: 20%;
+        border-radius: 10%;
+        padding: 1%;
+
+}
