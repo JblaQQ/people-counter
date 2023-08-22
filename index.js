@@ -3,21 +3,23 @@
 
 
 
-// let countEl = document.getElementById("count-el")
-// let count = 0
-// const button = document.getElementById('increment-btn');
-// button.addEventListener('click', () => {
-//     count ++;
-//     countEl.innerText = count;
-//     console.log(count)
-// })
 
-const counter = document.getElementById("count-el")
-let countEl = document.getElementById("count-el")
-let count = 0
+
+
+const countEl = document.getElementById("count-el")
 const button = document.getElementById('increment-btn');
+const savetEl = document.getElementById("save-el")
+
+
+let count = 0
 button.addEventListener('click', () => {
     count ++;
-    countEl.innerText = count;
+    countEl.textContent = count;
     console.log(count)
 })
+
+function save(){
+    let countStr = count + " - "
+    saveEl.textContent += countStr
+    console.log(count)
+}

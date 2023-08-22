@@ -10,10 +10,30 @@ body{ background-image: url(Hamburg.jpeg);
 
 }
 #increment-btn{
-    background-color: red;
+    background-color:red;
         width: 10%;
         height: 20%;
         border-radius: 10%;
         padding: 1%;
 
+}
+#save-btn {
+    background-color:green;
+        width: 10%;
+        height: 20%;
+        border-radius: 10%;
+        padding: 1%;
+        margin-top: 4%;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#save-el {
+    font-size: 300%;
+    color: blue;
 }
