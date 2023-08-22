@@ -1,31 +1,51 @@
 body{ background-image: url(Hamburg.jpeg);
+    font-family: Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
-
+    height: 100vh;
 }
 
+hi{
+    font-size: 250%;
+}
 #count-el{
     color: blue;
     font-size: 500%;
 
 }
-#increment-btn{
-    background-color:red;
-        width: 10%;
-        height: 20%;
-        border-radius: 10%;
-        padding: 1%;
 
+.container {
+background: white;
+max-width: 50%;
+align-self: center;
+margin-left: 25%;
+border-radius: 10%;
+border: 3px solid blue;
 }
-#save-btn {
+    
+
+#increment-btn {
+    background-color: #a52a6e;
+    color: white;
+    padding: 1%;
+    width: 55%;
+    border-radius: 3%;
+    margin-bottom: 6%;
+    
+}
+
+#save-btn{
     background-color:green;
-        width: 10%;
-        height: 20%;
-        border-radius: 10%;
-        padding: 1%;
-        margin-top: 4%;
-
+    color: white;
+    padding: 1%;
+    width: 55%;
+    border-radius: 3%;
+    margin-bottom: 6%;
+    border: 1px solid black;
 }
+
+
+
 .buttons{
     display: flex;
     align-items: center;
@@ -37,3 +57,4 @@ body{ background-image: url(Hamburg.jpeg);
     font-size: 300%;
     color: blue;
 }
+
